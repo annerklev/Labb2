@@ -1,0 +1,23 @@
+﻿<Window x:Class="Godiskalkylatorn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Godiskalkylatorn"
+        mc:Ignorable="d"
+        Title="Godiskalkylatorn" Height="450" Width="800">
+    <Grid>
+        <Label Content="Förnamn" HorizontalAlignment="Left" Margin="92,36,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextFirstName" HorizontalAlignment="Left" Margin="158,42,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextLastName" HorizontalAlignment="Left" Margin="159,70,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextAge" HorizontalAlignment="Left" Margin="161,101,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Efternamn" HorizontalAlignment="Left" Margin="90,66,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ålder" HorizontalAlignment="Left" Margin="91,95,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ButtonAdd" Content="Lägg till" Margin="169,135,534,277"/>
+        <ListBox x:Name="ListOfNames" Margin="93,176,482,67"/>
+        <Button x:Name="ButtonDivide" Content="Fördela" HorizontalAlignment="Left" Margin="345,348,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextCandy" HorizontalAlignment="Left" Margin="382,219,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Godisar" HorizontalAlignment="Left" Margin="379,196,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
